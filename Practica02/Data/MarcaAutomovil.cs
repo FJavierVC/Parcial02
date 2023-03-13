@@ -18,6 +18,9 @@ namespace Practica02.Data
         public string tipoEquipamiento;
         public double tipo;
 
+        #endregion
+
+        #region:Constructor
         public MarcaAutomovil(int id, string marca, string color, int version, string tipoEquipamiento, double tipo)
         {
             this.id = id;

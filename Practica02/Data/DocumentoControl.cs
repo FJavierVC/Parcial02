@@ -16,6 +16,8 @@ namespace Practica02.Data
         public DateTime arrivalDate ;
         public string description;
         public string comments;
+        #endregion
+        #region:Constructor
 
         public DocumentoControl(int id, string propietarioFirstName, string propietarioLastName, DateTime arrivalDate, string description, string comments)
         {

@@ -17,6 +17,10 @@ namespace Practica02.Data
         public string currentDiagnosis;
         public int maintenanceTime;
 
+        #endregion
+
+        #region:Constructor
+
         public Mantenimiento(int id, int lastMaintenance, string resultLastMaintenance, DateTime dateLastMaintenance, string currentDiagnosis, int maintenanceTime)
         {
             this.id = id;

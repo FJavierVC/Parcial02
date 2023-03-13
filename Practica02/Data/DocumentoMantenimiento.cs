@@ -18,5 +18,19 @@ namespace Practica02.Data
         public string comments;
 
         #endregion
+
+        #region:Constructor
+
+        public DocumentoMantenimiento(int id, string propietarioFirstName, string propietarioLastName, DateTime arrivalDate, string description, string comments)
+        {
+            this.id = id;
+            this.propietarioFirstName = propietarioFirstName;
+            this.propietarioLastName = propietarioLastName;
+            this.arrivalDate = arrivalDate;
+            this.description = description;
+            this.comments = comments;
+        }
+
+        #endregion
     }
 }

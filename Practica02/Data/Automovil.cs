@@ -15,19 +15,19 @@ namespace Practica02.Data
 		public string marca;
 		public string modelo;
 		public int km;
-        public string version;
+        public string placa;
 		public double precio;
 
 		#endregion
 
 		#region:Construuctor
-		public Automovil(int id, string marca, string modelo, int km, string version, double precio)
+		public Automovil(int id, string marca, string modelo, int km, string placa, double precio)
         {
             this.id = id;
             this.marca = marca;
             this.modelo = modelo;
             this.km = km;
-            this.version= version;
+            this.placa = placa;
             this.precio = precio;
         }
         #endregion

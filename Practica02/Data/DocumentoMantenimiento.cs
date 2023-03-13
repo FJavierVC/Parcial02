@@ -8,5 +8,15 @@ namespace Practica02.Data
 {
     internal class DocumentoMantenimiento
     {
+        #region:Propiedades
+
+        public int id;
+        public string propietarioFirstName;
+        public string propietarioLastName;
+        public DateTime arrivalDate;
+        public string description;
+        public string comments;
+
+        #endregion
     }
 }
